@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LED_Wled)(type KiCad)(uri ${KIPRJMOD}/Libraries/LED_Wled.pretty)(options "")(descr ""))
+)
