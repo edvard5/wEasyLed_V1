@@ -1,14 +1,34 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,5.1.5+dfsg1-2build2*%
-%TF.CreationDate,2021-11-04T16:55:54+02:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,5.1.10-88a1d61d58~88~ubuntu20.04.1*%
+%TF.CreationDate,2022-01-13T13:40:49+02:00*%
 %TF.ProjectId,LED_Wled,4c45445f-576c-4656-942e-6b696361645f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Glue,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.5+dfsg1-2build2) date 2021-11-04 16:55:54*
+G04 Created by KiCad (PCBNEW 5.1.10-88a1d61d58~88~ubuntu20.04.1) date 2022-01-13 13:40:49*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
+%ADD10C,0.380000*%
 G04 APERTURE END LIST*
+D10*
+%TO.C,L1*%
+X83900000Y-65700000D02*
+G75*
+G03*
+X83900000Y-65700000I-900000J0D01*
+G01*
+X83550000Y-65700000D02*
+G75*
+G03*
+X83550000Y-65700000I-550000J0D01*
+G01*
+X83212132Y-65700000D02*
+G75*
+G03*
+X83212132Y-65700000I-212132J0D01*
+G01*
+%TD*%
 M02*
