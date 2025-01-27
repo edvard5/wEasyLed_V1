@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name LED_Wled)(type Legacy)(uri ${KIPRJMOD}/Libraries/LED_Wled.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "LED_Wled")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LED_Wled.kicad_sym")(options "")(descr ""))
 )
