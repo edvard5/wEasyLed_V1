@@ -48,15 +48,14 @@
           "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "clearance|74000000|57250000|6fbb796e-d103-4253-9a6c-ea9c86006643|00000000-0000-0000-0000-000061e04719",
-        "clearance|74910008|57250000|b4e2abb2-bb38-467c-994d-7a860560ed86|6fbb796e-d103-4253-9a6c-ea9c86006643",
-        "clearance|74943999|57250000|38836cc3-82fb-451b-a7e0-01fd3f87909e|6fbb796e-d103-4253-9a6c-ea9c86006643",
-        "clearance|74943999|57250000|f171fb43-888d-4878-ac1c-4fe870c84208|6fbb796e-d103-4253-9a6c-ea9c86006643",
-        "clearance|74943999|59250000|13a4eb41-a70f-4fd4-8c55-d5dc371cb23f|6fbb796e-d103-4253-9a6c-ea9c86006643",
-        "clearance|77149065|57250000|6fbb796e-d103-4253-9a6c-ea9c86006643|00000000-0000-0000-0000-000061e16dc6"
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -176,7 +175,9 @@
       "track_widths": [
         0.0,
         0.35,
-        2.0
+        0.5,
+        2.0,
+        4.0
       ],
       "via_dimensions": [
         {
@@ -409,7 +410,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "LED_Wled"
+    ],
     "pinned_symbol_libs": [
       "LED_Wled"
     ]
